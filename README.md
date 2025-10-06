@@ -2,9 +2,11 @@
 
 Submitted by: Daisi Perez
 
-**Name of your app** is an app that introduces ... [TODO] 
+BeReal is a social media app that allows you to upload pictures in real time. There is a feed that demonstrates pictures shared by the users in addition to a caption and location. 
+There is now a comment feature and users can't see other posts unless they post first! After 24 hours, all posts get get erased from the feed, thus, making
+room for more posts!
 
-Time spent: **X** hours spent in total
+Time spent: 10 hours spent in total
 
 ## Required Features
 
@@ -31,11 +33,13 @@ https://youtu.be/n-20y4YiZF0
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+My biggest challenge while working on this app was the comment secton. I had a lot of trouble with the UI features on storyboard, especially the keyboard functionality.
+I tried implementing it using the the bottom constraint plugin but it would not work for dear life! I ended up just coding it in the CommentViewFinder.swift file.
+I would like to mention that posts actually do get erased after 24 hours! The previous posts made from part 1 of this project are long gone, as demonstrated in the video. 
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2025] [Daisi Perez]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
